@@ -1,5 +1,6 @@
-import capitalize from ".";
+import capitalize from "./odin.js";
 
+// capitalize function
 test("capitalize is defined", () => {
   expect(capitalize).toBeDefined();
 });
