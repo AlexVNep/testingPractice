@@ -13,6 +13,8 @@ console.log(capitalize("juice"));
 function reverseString(string) {
   if (typeof string !== "string") {
     return "This is not a string";
+  } else if (string.length < 1) {
+    return "Input empty";
   } else {
     return string.split("").reverse().join("");
   }

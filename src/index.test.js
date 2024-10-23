@@ -36,3 +36,7 @@ test("Accepts a string as an input", () => {
 test("Return reverse of input", () => {
   expect(reverseString("string")).toMatch("gnirts");
 });
+
+test("Input cannot be empty", () => {
+  expect(reverseString("")).toBe("Input empty");
+});
