@@ -10,6 +10,10 @@ function capitalize(string) {
 
 console.log(capitalize("juice"));
 
-function reverseString(string) {}
+function reverseString(string) {
+  if (typeof string !== "string") {
+    return "This is not a string";
+  } else return string;
+}
 export default capitalize;
 export { reverseString };
