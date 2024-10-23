@@ -4,4 +4,4 @@ function capitalize(string) {
 
 console.log(capitalize("juice"));
 
-export { capitalize };
+export default capitalize;
