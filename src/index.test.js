@@ -30,7 +30,7 @@ test("reverseString defined", () => {
 });
 
 test("Accepts a string as an input", () => {
-  expect(reverseString("string")).toBe("string");
+  expect(reverseString(123)).toBe("This is not a string");
 });
 
 test("Return reverse of input", () => {
