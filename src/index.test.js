@@ -15,3 +15,7 @@ test("Accepts string returns first letter capitalised", () => {
 test("Accepts string returns first letter capitalised", () => {
   expect(capitalize("my Kingdom")).toMatch("My Kingdom");
 });
+
+test("If not a string", () => {
+  expect(capitalize(123)).toBe("This is not a string");
+});

@@ -1,5 +1,9 @@
 function capitalize(string) {
-  return string[0].toUpperCase() + string.slice(1);
+  if (typeof string !== "string") {
+    return "This is not a string";
+  } else {
+    return string[0].toUpperCase() + string.slice(1);
+  }
 }
 
 console.log(capitalize("juice"));
