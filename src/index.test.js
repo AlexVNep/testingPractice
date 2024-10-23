@@ -19,3 +19,7 @@ test("Accepts string returns first letter capitalised", () => {
 test("If not a string", () => {
   expect(capitalize(123)).toBe("This is not a string");
 });
+
+test("If input is empty", () => {
+  expect(capitalize("")).toBe("Input empty");
+});
