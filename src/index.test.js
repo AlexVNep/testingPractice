@@ -32,3 +32,7 @@ test("reverseString defined", () => {
 test("Accepts a string as an input", () => {
   expect(reverseString("string")).toBe("string");
 });
+
+test("Return reverse of input", () => {
+  expect(reverseString("string")).toMatch("gnirts");
+});

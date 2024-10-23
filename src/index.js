@@ -13,7 +13,9 @@ console.log(capitalize("juice"));
 function reverseString(string) {
   if (typeof string !== "string") {
     return "This is not a string";
-  } else return string;
+  } else {
+    return string.split("").reverse().join("");
+  }
 }
 export default capitalize;
 export { reverseString };
