@@ -10,4 +10,6 @@ function capitalize(string) {
 
 console.log(capitalize("juice"));
 
+function reverseString(string) {}
 export default capitalize;
+export { reverseString };

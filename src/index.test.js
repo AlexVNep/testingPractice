@@ -1,4 +1,4 @@
-import capitalize from "./index.js";
+import capitalize, { reverseString } from "./index.js";
 
 test("capitalize is defined", () => {
   expect(capitalize).toBeDefined();
@@ -22,4 +22,9 @@ test("If not a string", () => {
 
 test("If input is empty", () => {
   expect(capitalize("")).toBe("Input empty");
+});
+
+// reverseString function
+test("reverseString defined", () => {
+  expect(reverseString).toBeDefined();
 });
